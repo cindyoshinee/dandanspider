@@ -4,7 +4,7 @@ spider for dandanbbs of BNU
     This project is only used to crawl http://www.oiegg.com/
     The "bigspider.py" is used to crawl urls of boards and "myspider.py" crawl list and content of article.
   
-    We have three tables to store data:
+    Create mysql db, and we have three tables to store data:
     1.Table boards for all the boards ,including their url and name.
     +-------+-------------+------+-----+---------+----------------+
     | Field | Type        | Null | Key | Default | Extra          |
